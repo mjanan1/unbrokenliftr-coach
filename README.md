@@ -2,15 +2,16 @@
 
 A Claude skill that coaches you from skinny-fat to muscular. It logs your food meal by meal, keeps a running count of calories and protein left for the day, judges your weight on 7-day averages instead of daily noise, tracks your weekly tape measurements, and tells you when to add or cut calories, using fixed rules instead of guesswork.
 
-It's built from a real transformation: a nine-month cut from about 222 lb to about 163 lb, a reverse diet, and a lean bulk, all run in Claude chat.
+It's built by someone who did it the wrong way first. I started skinny-fat and spent over a decade stuck in the cycle: cut, feel too small, eat, feel fat, cut again. I never built muscle and ended up at 222 lb. Cutting down to 160 lb left me small with little muscle. This skill is the right way: recomp first, cut properly, never bulk past 16-17% body fat, and never switch phases because of how you look in the mirror on a given day.
 
-**Status: v0.3, being tested.** Nutrition, tracking, phase sequence, body-fat limits and the training method are all in. Female body-fat targets are still defaults.
+**Status: v0.4, being tested.** Nutrition, tracking, phase sequence, body-fat limits, the skinny-fat trap rules and the training method are all in. Female body-fat targets are still defaults.
 
 ## What it does
 - **Food logging:** each entry gets an itemised table with kcal and protein, day totals, and calories and protein remaining against your target for that day type.
 - **Weight trend:** 7-day averages and the weekly rate of change. It won't overreact to one high reading.
 - **Measured maintenance:** works out your real maintenance calories from 14+ days of logs and morning weights, rather than a formula.
 - **Rule-based adjustments** for cutting, recomp and lean bulking.
+- **Protection against the skinny-fat trap:** phases change only at scheduled reviews, based on tape, photos and lifts, never on a bad mirror day.
 - **Weekly tape and Navy body-fat estimate.**
 - **Safety rules:** calorie floors, a maximum rate of loss, and redirects for under-18s, disordered eating and medical conditions.
 

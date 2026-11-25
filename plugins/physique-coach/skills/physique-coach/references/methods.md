@@ -16,6 +16,9 @@ Relaxed, end of a normal exhale, tape level and snug but not compressing. Take e
 - Women: also hips at the widest point (needed for the Navy formula)
 Same side, same flex, same time every week.
 
+## Weekly photos
+Every Monday morning, after the weigh-in and before lifting, eating or training. Front, side and back, same place, same light, same distance, relaxed. Never use post-workout photos to judge progress: the pump inflates them.
+
 Realistic lean gains: arms about 0.25-0.5 in (0.6-1.3 cm) a month; chest and thighs about 0.5 in (1.3 cm) a month. Judge muscle gain monthly, not weekly.
 
 ## Navy body-fat estimate

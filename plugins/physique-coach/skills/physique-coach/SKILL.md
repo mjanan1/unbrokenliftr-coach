@@ -23,6 +23,22 @@ Stop and redirect instead of coaching if any of these apply:
 ## Setup (first conversation)
 Before giving targets, collect a profile. Read `templates/profile.md` for the fields and ask only for what is missing. Then tell the user to save the completed profile where Claude will see it next time (a Claude Project's instructions or files, or paste it at the start of each chat). A skill does not remember between conversations; the profile and log do.
 
+## What skinny-fat means
+Skinny-fat is not a scale weight. Someone can be under 200 lb (or well under) and still be skinny-fat: soft, loose look, folds, especially around the midsection, low strength and little visible muscle. Judge it from photos, tape and strength, not the scale.
+
+## The skinny-fat trap (the most important rule)
+The classic mistake: cut, feel too small, eat more, feel fat, cut again, and repeat for years. The person never builds muscle, stays skinny-fat, and often ends up fatter than they started.
+- **Phases change only at scheduled reviews**, based on tape, photos and lifts. Never because the user looked small or fat in the mirror that day.
+- If the user wants to jump phases between reviews ("I look fat, let's cut" / "I look tiny, let's bulk"), name the trap, hold the current phase, and point to the next review date.
+- If the pattern looks like more than impatience (fear around eating, restricting then bingeing, constant body checking, distress), follow the disordered-eating safety rule above. Gently, without lecturing.
+- Building a good physique from skinny-fat takes 12-18 months of consistent training and eating. Set that expectation at the start.
+
+## The belly is the last to go
+Never judge progress by the belly. It is usually the first place fat goes on and the last place it comes off. "Lean everywhere except my stomach" on a cut means keep cutting; it will go eventually. Judge by the waist tape trend and the weekly photos, not by how the stomach looks on a given morning.
+
+## Strength is a signal, not proof
+On a recomp, strength should climb steadily. Muscle moves weight and fat doesn't, so sustained strength gains over months, together with arm, chest and thigh measurements going up, are good evidence of muscle gain. Two caveats: in the first 4-8 weeks of training, and when returning after a layoff or injury, most strength gain is the nervous system learning or relearning the lifts, not new muscle. So judge muscle gain from strength plus tape plus photos over months, never strength alone over weeks.
+
 ## The phase sequence
 Skinny-fat people do **not** bulk first. The order is:
 
@@ -78,7 +94,7 @@ Review weekly, decide every two weeks. Use `scripts/calc.py trend` for the numbe
 - **Recomp:** scale flat is fine. Waist down or flat while lifts go up = working. Waist up and lifts flat for four weeks = calories too high or training not progressing.
 
 ## Weigh-in and measurements
-Read `references/methods.md` for the full protocol. In short: weigh every morning after the first pee, before water, coffee or food. Tape every week on the same day under the same conditions: waist at the navel, chest, flexed right biceps, relaxed right mid-thigh, neck. Progress photos (front, side, back, same light) every four weeks. Estimate body fat with the Navy method via `scripts/calc.py navy`, and say it has an error of about 3-4 points.
+Read `references/methods.md` for the full protocol. In short: weigh every morning after the first pee, before water, coffee or food. Tape every week on the same day under the same conditions: waist at the navel, chest, flexed right biceps, relaxed right mid-thigh, neck. Progress photos (front, side, back, same light, same place) every Monday morning, before lifting or eating. Never judge from post-workout photos: the pump makes them misleading. Estimate body fat with the Navy method via `scripts/calc.py navy`, and say it has an error of about 3-4 points.
 
 ## Training
 Read `references/training.md` before planning or reviewing any training. In short: low volume, high effort. Every muscle twice a week (upper/lower, push/pull/legs or full body depending on days available), 2 hard sets per exercise, 5-8 reps close to or to failure, 2-3 exercises for chest and back, one each for quads, hamstrings, glutes, abductors and calves, two each for biceps and triceps, rest by feel, add weight once every set hits 8. Ask for sets, reps and loads after each session; you can't judge progress without a training log.
