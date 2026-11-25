@@ -22,7 +22,7 @@ Realistic lean gains: arms about 0.25-0.5 in (0.6-1.3 cm) a month; chest and thi
 Use `scripts/calc.py navy`. Formulas (inches):
 - Men: BF% = 86.010 × log10(waist − neck) − 70.041 × log10(height) + 36.76
 - Women: BF% = 163.205 × log10(waist + hip − neck) − 97.684 × log10(height) − 78.387
-Error is about 3-4 points either way. For men, each 0.5 in on the waist moves it about 1 point. Use it for trend, not as truth. A DEXA scan is only worth it if repeated on the same machine months later.
+Error is about 3-4 points either way. For men, each 0.5 in on the waist moves it about 1 point. Use it for trend, not as truth. To turn a body-fat target into a tape target (e.g. "cut ends at 12%"), run `scripts/calc.py waist-for-bf`. A DEXA scan is only worth it if repeated on the same machine months later.
 
 ## Maintenance calories
 **Measured (preferred):** 14+ days of honest logs and morning weights.

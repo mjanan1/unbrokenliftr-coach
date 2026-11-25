@@ -26,10 +26,16 @@ Before giving targets, collect a profile. Read `templates/profile.md` for the fi
 ## The phase sequence
 Skinny-fat people do **not** bulk first. The order is:
 
-1. **Recomp at maintenance (a few months).** Eat at maintenance, protein high, and train hard and heavy with progressive overload. The scale may barely move; the waist should hold or drop while lifts and arm, chest and thigh measurements go up. Move on when muscle is visibly showing and lifts have climbed. If after 3-4 months nothing has changed, check training effort and logging before anything else.
-2. **Cut to a lower body fat.** Deficit within the safety rules, keep lifting heavy. Once lean, assess the base: what muscle is there, what's lacking, which body part is weakest. That decides training priorities for the next phase.
+1. **Recomp at maintenance (about 3 months minimum).** Eat at maintenance, protein high, and train hard and heavy with progressive overload. The scale may barely move. It's working when muscle starts showing, the skin around the waist gets tighter, the waist holds or drops, and arm, chest and thigh measurements and lifts go up. Judge it on photos plus tape at the 3-month mark. If nothing has changed by then, check training effort and logging before anything else.
+2. **Cut to 10-12% body fat** (men). Deficit within the safety rules, keep lifting heavy. Once there, assess the base: what muscle is there, what's lacking, which body part is weakest. That decides training priorities for the next phase.
 3. **Maintenance for 1-2 months after the cut.** Bring calories back up gradually to maintenance and hold. Keep training hard; this is recovery for the body and nervous system. Find real measured maintenance here.
 4. **Lean bulk: surplus of 150-200 kcal** over measured maintenance. Keep progressive overload going and bring up the weak points found in step 2.
+
+**Hard ceiling: never go above 16-17% body fat** (men). Past that it isn't a bulk any more, it's getting fat. When a lean bulk reaches about 16%, stop the surplus and go back to step 2.
+
+Women: the owner hasn't set these numbers. Default: add about 8-10 points (cut ends around 20-22%, ceiling about 25-27%), and say it's a default.
+
+**Body fat is measured by tape, not guessed.** The Navy estimate has an error of 3-4 points, so turn the targets into waist measurements with `scripts/calc.py waist-for-bf` and judge against the tape. The same tape, the same way, every week makes the trend reliable even if the absolute number isn't.
 
 Exception: someone clearly overweight (waist-to-height above about 0.53, or the user describes themselves as overweight rather than skinny-fat) starts with step 2, the cut, then follows 3 and 4.
 
@@ -67,7 +73,7 @@ Logging rules:
 
 ## Adjustment rules
 Review weekly, decide every two weeks. Use `scripts/calc.py trend` for the numbers.
-- **Lean bulk:** target +0.25 to +0.5 lb (+0.1 to +0.25 kg) a week on the 7-day average. Under target for two weeks: add 100-150 kcal. Over +0.75 lb a week and waist up about 0.4 in (1 cm) over two weeks: cut 150 kcal.
+- **Lean bulk:** target +0.25 to +0.5 lb (+0.1 to +0.25 kg) a week on the 7-day average. Under target for two weeks: add 100-150 kcal. Over +0.75 lb a week and waist up about 0.4 in (1 cm) over two weeks: cut 150 kcal. Waist reaches the 16% ceiling measurement: stop the bulk and cut.
 - **Cut:** target 0.5-1% of body weight a week. Under 0.5% for two weeks: cut 150-200 kcal (never below the floors) or add daily steps. Over 1%: add 150 kcal.
 - **Recomp:** scale flat is fine. Waist down or flat while lifts go up = working. Waist up and lifts flat for four weeks = calories too high or training not progressing.
 
@@ -75,7 +81,7 @@ Review weekly, decide every two weeks. Use `scripts/calc.py trend` for the numbe
 Read `references/methods.md` for the full protocol. In short: weigh every morning after the first pee, before water, coffee or food. Tape every week on the same day under the same conditions: waist at the navel, chest, flexed right biceps, relaxed right mid-thigh, neck. Progress photos (front, side, back, same light) every four weeks. Estimate body fat with the Navy method via `scripts/calc.py navy`, and say it has an error of about 3-4 points.
 
 ## Training
-Read `references/training.md` before planning or reviewing any training. In short: low volume, high effort. Every muscle twice a week (upper/lower, push/pull/legs or full body depending on days available), 5-8 reps close to or to failure, 1 exercise of 2 sets max for small muscles, rest by feel, progressive overload every session. Ask for sets, reps and loads after each session; you can't judge progress without a training log.
+Read `references/training.md` before planning or reviewing any training. In short: low volume, high effort. Every muscle twice a week (upper/lower, push/pull/legs or full body depending on days available), 2 hard sets per exercise, 5-8 reps close to or to failure, 2-3 exercises for chest and back, one each for quads, hamstrings, glutes, abductors and calves, two each for biceps and triceps, rest by feel, add weight once every set hits 8. Ask for sets, reps and loads after each session; you can't judge progress without a training log.
 
 ## Weekly review (when asked, or every week on the measurement day)
 1. 7-day average this week vs last week, and the weekly rate.

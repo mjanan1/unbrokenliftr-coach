@@ -4,7 +4,7 @@ A Claude skill that coaches you from skinny-fat to muscular. It logs your food m
 
 It's built from a real transformation: a nine-month cut from about 222 lb to about 163 lb, a reverse diet, and a lean bulk, all run in Claude chat.
 
-**Status: v0.2, being tested.** The nutrition, tracking, phase sequence and training method are in. A few training details (sets for big muscle groups, the exact progression rule) are still marked "confirm".
+**Status: v0.3, being tested.** Nutrition, tracking, phase sequence, body-fat limits and the training method are all in. Female body-fat targets are still defaults.
 
 ## What it does
 - **Food logging:** each entry gets an itemised table with kcal and protein, day totals, and calories and protein remaining against your target for that day type.
@@ -38,7 +38,7 @@ plugins/physique-coach/skills/physique-coach/
 ├── references/training.md   training programme: splits, exercises, effort, progression
 ├── templates/profile.md     client profile to fill in
 ├── templates/log-format.md  daily log format
-└── scripts/calc.py          Navy body fat, weekly trend, measured maintenance
+└── scripts/calc.py          Navy body fat, waist targets, weekly trend, measured maintenance
 ```
 
 ## Disclaimer

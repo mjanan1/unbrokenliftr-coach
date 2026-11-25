@@ -3,6 +3,8 @@
 
 Commands:
   navy --sex m --waist 32.25 --neck 14 --height 72 [--hip H] [--cm]
+  waist-for-bf --sex m --bf 12 16 --neck 14 --height 72 [--hip H] [--cm]
+                                waist measurement that corresponds to each body-fat target
   trend LOG.csv [--kg]          7-day averages and weekly rate of change
   maintenance LOG.csv [--days N] [--kg]
                                 measured maintenance from intake and weight trend
@@ -31,6 +33,19 @@ def navy(sex, waist, neck, height, hip=None, cm=False):
     if hip is None:
         raise ValueError("women need --hip")
     return 163.205 * math.log10(waist + hip - neck) - 97.684 * math.log10(height) - 78.387
+
+
+def waist_for_bf(sex, bf, neck, height, hip=None, cm=False):
+    """Inverse Navy formula: the waist that gives `bf` percent, in the input unit."""
+    k = 2.54 if cm else 1.0
+    n, h = neck / k, height / k
+    if sex == "m":
+        w = 10 ** ((bf - 36.76 + 70.041 * math.log10(h)) / 86.010) + n
+    else:
+        if hip is None:
+            raise ValueError("women need --hip")
+        w = 10 ** ((bf + 78.387 + 97.684 * math.log10(h)) / 163.205) + n - hip / k
+    return w * k
 
 
 def _num(s):
@@ -122,6 +137,13 @@ def main():
     n.add_argument("--height", type=float, required=True)
     n.add_argument("--hip", type=float)
     n.add_argument("--cm", action="store_true", help="inputs in cm (default inches)")
+    w = sub.add_parser("waist-for-bf")
+    w.add_argument("--sex", choices=["m", "f"], required=True)
+    w.add_argument("--bf", type=float, nargs="+", required=True)
+    w.add_argument("--neck", type=float, required=True)
+    w.add_argument("--height", type=float, required=True)
+    w.add_argument("--hip", type=float)
+    w.add_argument("--cm", action="store_true")
     t = sub.add_parser("trend")
     t.add_argument("log")
     t.add_argument("--kg", action="store_true")
@@ -134,6 +156,11 @@ def main():
     if a.cmd == "navy":
         bf = navy(a.sex, a.waist, a.neck, a.height, a.hip, a.cm)
         print(f"Navy body fat: {bf:.1f}% (error about 3-4 points; use for trend only)")
+    elif a.cmd == "waist-for-bf":
+        unit = "cm" if a.cm else "in"
+        for bf in a.bf:
+            print(f"{bf:g}% body fat -> waist about {waist_for_bf(a.sex, bf, a.neck, a.height, a.hip, a.cm):.2f} {unit} "
+                  f"(at neck {a.neck:g}{unit}; Navy estimate, use as a tape target)")
     elif a.cmd == "trend":
         cmd_trend(read_log(a.log), a.kg)
     else:
