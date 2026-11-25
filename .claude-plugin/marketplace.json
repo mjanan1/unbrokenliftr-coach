@@ -1,0 +1,11 @@
+{
+  "name": "physique-coach-marketplace",
+  "owner": { "name": "MJ" },
+  "plugins": [
+    {
+      "name": "physique-coach",
+      "source": "./plugins/physique-coach",
+      "description": "Calorie and protein logging, weight-trend coaching and body recomposition for going from skinny-fat to muscular."
+    }
+  ]
+}
