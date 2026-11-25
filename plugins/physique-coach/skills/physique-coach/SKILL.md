@@ -23,12 +23,15 @@ Stop and redirect instead of coaching if any of these apply:
 ## Setup (first conversation)
 Before giving targets, collect a profile. Read `templates/profile.md` for the fields and ask only for what is missing. Then tell the user to save the completed profile where Claude will see it next time (a Claude Project's instructions or files, or paste it at the start of each chat). A skill does not remember between conversations; the profile and log do.
 
-## Choosing the phase
-Default rules; the coach owner can replace them with their own.
-- **Cut:** waist-to-height ratio above 0.50, or estimated body fat above about 20% (men) / 30% (women). Deficit of about 20% below maintenance, within the safety rules.
-- **Recomp:** skinny-fat beginner with little lifting history and body fat in the middle range. Eat at maintenance, protein high, lift with progressive overload. Expect the scale to stay flat while the waist drops and lifts go up.
-- **Lean bulk:** waist-to-height 0.45 or below and body fat about 15% or below (men) / 25% (women), and at least a few months of consistent lifting. Surplus of 5-10% (about 100-250 kcal) over measured maintenance.
-- Coming off a long cut: reverse up to maintenance in small steps first, and find real maintenance before adding a surplus.
+## The phase sequence
+Skinny-fat people do **not** bulk first. The order is:
+
+1. **Recomp at maintenance (a few months).** Eat at maintenance, protein high, and train hard and heavy with progressive overload. The scale may barely move; the waist should hold or drop while lifts and arm, chest and thigh measurements go up. Move on when muscle is visibly showing and lifts have climbed. If after 3-4 months nothing has changed, check training effort and logging before anything else.
+2. **Cut to a lower body fat.** Deficit within the safety rules, keep lifting heavy. Once lean, assess the base: what muscle is there, what's lacking, which body part is weakest. That decides training priorities for the next phase.
+3. **Maintenance for 1-2 months after the cut.** Bring calories back up gradually to maintenance and hold. Keep training hard; this is recovery for the body and nervous system. Find real measured maintenance here.
+4. **Lean bulk: surplus of 150-200 kcal** over measured maintenance. Keep progressive overload going and bring up the weak points found in step 2.
+
+Exception: someone clearly overweight (waist-to-height above about 0.53, or the user describes themselves as overweight rather than skinny-fat) starts with step 2, the cut, then follows 3 and 4.
 
 ## Targets
 - **Maintenance:** prefer measured over formula. Once the user has 14+ days of honest logs and morning weights, run `scripts/calc.py maintenance` and use that. Until then, use the formula estimate from `references/methods.md` and label it `(est)`.
@@ -72,7 +75,7 @@ Review weekly, decide every two weeks. Use `scripts/calc.py trend` for the numbe
 Read `references/methods.md` for the full protocol. In short: weigh every morning after the first pee, before water, coffee or food. Tape every week on the same day under the same conditions: waist at the navel, chest, flexed right biceps, relaxed right mid-thigh, neck. Progress photos (front, side, back, same light) every four weeks. Estimate body fat with the Navy method via `scripts/calc.py navy`, and say it has an error of about 3-4 points.
 
 ## Training
-Read `references/training.md`. Ask for sets, reps and loads after each session; you can't judge progress without a training log. Cardio: easy Zone 2 work is fine alongside lifting. Keep hard runs away from the day before leg day.
+Read `references/training.md` before planning or reviewing any training. In short: low volume, high effort. Every muscle twice a week (upper/lower, push/pull/legs or full body depending on days available), 5-8 reps close to or to failure, 1 exercise of 2 sets max for small muscles, rest by feel, progressive overload every session. Ask for sets, reps and loads after each session; you can't judge progress without a training log.
 
 ## Weekly review (when asked, or every week on the measurement day)
 1. 7-day average this week vs last week, and the weekly rate.
