@@ -18,8 +18,8 @@ It's built by someone who did it the wrong way first. I started skinny-fat and s
 ## Install
 
 ### Claude chat (claude.ai, desktop, mobile)
-1. Download this repository as a zip (green **Code** button → **Download ZIP**) and unzip it.
-2. Zip just the folder `plugins/physique-coach/skills/physique-coach`.
+1. Download [`dist/physique-coach.zip`](dist/physique-coach.zip) (open it on GitHub, then click the download button).
+2. Don't unzip it.
 3. In Claude, open **Settings**, find the skills section, and upload that zip. Code execution needs to be switched on for the calculator to run. Skills availability depends on your Claude plan.
 4. Start a chat and say: "Set me up as a new physique coaching client."
 
