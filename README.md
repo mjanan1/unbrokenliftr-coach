@@ -27,7 +27,7 @@ It's built by someone who did it the wrong way first. I started skinny-fat and s
 
 ### Claude Code
 ```
-/plugin marketplace add mjanan1/Claude
+/plugin marketplace add mjanan1/unbrokenliftr-coach
 /plugin install unbrokenliftr-coach@unbrokenliftr
 ```
 
