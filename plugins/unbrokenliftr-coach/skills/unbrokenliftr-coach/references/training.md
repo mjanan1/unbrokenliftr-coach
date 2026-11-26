@@ -9,7 +9,51 @@ Every muscle group gets trained at least twice a week.
 - **2-3 days: Full body**, at least twice a week.
 Days can move around work. Put a rest day between hard sessions when possible.
 
-**Check before sending any plan:** list every muscle group in the table below and count how many sessions it appears in. Every one, side delts included, must appear at least twice a week. Fix the plan if one doesn't.
+## Start from a template
+Build every plan from one of these templates. Swap exercises for equivalents (equipment, injuries, preference), but keep the muscle in the same sessions. Each exercise is 2 hard sets.
+
+**3 days, full body (Mon / Wed / Fri)**
+| Session A | Session B | Session C |
+|---|---|---|
+| Incline DB press (chest) | Flat bench press (chest) | Leg press (quads) |
+| Machine chest press (chest) | Cable fly (chest) | Hip thrust (glutes) |
+| Lat pulldown (back) | Pull-ups (back) | Hip abduction machine (abductors) |
+| Chest-supported row (back) | Seated cable row (back) | Seated calf raise (calves) |
+| Hack squat (quads) | Romanian deadlift (hamstrings) | Lateral raise (side delts) |
+| Seated leg curl (hamstrings) | Hip thrust or glute machine (glutes) | Incline DB curl (biceps, long head) |
+| Incline DB curl (biceps, long head) | Hip abduction machine (abductors) | Preacher curl (biceps, short head) |
+| Preacher curl (biceps, short head) | Standing calf raise (calves) | Overhead cable extension (triceps, long head) |
+| Overhead cable extension (triceps, long head) | Lateral raise (side delts) | Triceps pushdown (triceps, lateral and medial) |
+| Triceps pushdown (triceps, lateral and medial) | | |
+
+**4 days, upper / lower (e.g. Mon Upper, Tue Lower, Thu Upper, Fri Lower)**
+| Upper (twice a week) | Lower (twice a week) |
+|---|---|
+| 2-3 chest exercises (e.g. incline press, flat press, fly) | Quads: squat, hack squat or leg press |
+| 2-3 back exercises (vertical pull and a row) | Hamstrings: Romanian deadlift or leg curl |
+| Lateral raise (side delts) | Glutes: hip thrust |
+| 2 biceps exercises (long head, short head) | Hip abduction machine |
+| 2 triceps exercises (overhead, pushdown) | Calves: standing or seated calf raise |
+
+**6 days, push / pull / legs:** Push = chest exercises, lateral raise, triceps. Pull = back exercises, biceps. Legs = the lower-day list above. Each runs twice a week.
+
+## Frequency table (required in every plan you send)
+End every training plan with this table, filled in from the actual plan, and fix the plan before sending if any count is under 2:
+
+| Muscle | Sessions per week | Hard sets per week |
+|---|---|---|
+| Chest | | |
+| Back | | |
+| Quads | | |
+| Hamstrings | | |
+| Glutes | | |
+| Hip abductors | | |
+| Calves | | |
+| Side delts | | |
+| Biceps | | |
+| Triceps | | |
+
+Only state set counts you have taken from this table.
 
 ## Exercises per session
 Every exercise is 2 hard sets.
