@@ -1,10 +1,10 @@
-# Physique Coach
+# UnbrokenLiftr Coach
 
 A Claude skill that coaches you from skinny-fat to muscular. It logs your food meal by meal, keeps a running count of calories and protein left for the day, judges your weight on 7-day averages instead of daily noise, tracks your weekly tape measurements, and tells you when to add or cut calories, using fixed rules instead of guesswork.
 
 It's built by someone who did it the wrong way first. I started skinny-fat and spent over a decade stuck in the cycle: cut, feel too small, eat, feel fat, cut again. I never built muscle and ended up at 222 lb. Cutting down to 160 lb left me small with little muscle. This skill is the right way: recomp first, cut properly, never bulk past 16-17% body fat, and never switch phases because of how you look in the mirror on a given day.
 
-**Status: v0.4, being tested.** Nutrition, tracking, phase sequence, body-fat limits, the skinny-fat trap rules and the training method are all in. Female body-fat targets are still defaults.
+**Status: v0.5, being tested.** Nutrition, tracking, phase sequence, body-fat limits, the skinny-fat trap rules and the training method are all in. Female body-fat targets are still defaults.
 
 ## What it does
 - **Food logging:** each entry gets an itemised table with kcal and protein, day totals, and calories and protein remaining against your target for that day type.
@@ -18,7 +18,7 @@ It's built by someone who did it the wrong way first. I started skinny-fat and s
 ## Install
 
 ### Claude chat (claude.ai, desktop, mobile)
-1. Download [`dist/physique-coach.zip`](dist/physique-coach.zip) (open it on GitHub, then click the download button).
+1. Download [`dist/unbrokenliftr-coach.zip`](dist/unbrokenliftr-coach.zip) (open it on GitHub, then click the download button).
 2. Don't unzip it.
 3. In Claude, open **Settings**, find the skills section, and upload that zip. Code execution needs to be switched on for the calculator to run. Skills availability depends on your Claude plan.
 4. Start a chat and say: "Set me up as a new physique coaching client."
@@ -28,12 +28,12 @@ It's built by someone who did it the wrong way first. I started skinny-fat and s
 ### Claude Code
 ```
 /plugin marketplace add <github-user>/<this-repo>
-/plugin install physique-coach@physique-coach-marketplace
+/plugin install unbrokenliftr-coach@unbrokenliftr
 ```
 
 ## Files
 ```
-plugins/physique-coach/skills/physique-coach/
+plugins/unbrokenliftr-coach/skills/unbrokenliftr-coach/
 ├── SKILL.md                 the coaching method
 ├── references/methods.md    weigh-in, tape, body fat, maintenance
 ├── references/training.md   training programme: splits, exercises, effort, progression

@@ -1,10 +1,10 @@
 {
-  "name": "physique-coach-marketplace",
-  "owner": { "name": "MJ" },
+  "name": "unbrokenliftr",
+  "owner": { "name": "UnbrokenLiftr" },
   "plugins": [
     {
-      "name": "physique-coach",
-      "source": "./plugins/physique-coach",
+      "name": "unbrokenliftr-coach",
+      "source": "./plugins/unbrokenliftr-coach",
       "description": "Calorie and protein logging, weight-trend coaching and body recomposition for going from skinny-fat to muscular."
     }
   ]

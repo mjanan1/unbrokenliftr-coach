@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Physique coach calculator. Standard library only.
+"""UnbrokenLiftr coach calculator. Standard library only.
 
 Commands:
   navy --sex m --waist 32.25 --neck 14 --height 72 [--hip H] [--cm]
