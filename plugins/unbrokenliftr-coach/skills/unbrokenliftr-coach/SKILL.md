@@ -98,7 +98,15 @@ Review weekly, decide every two weeks. Use `scripts/calc.py trend` for the numbe
 Read `references/methods.md` for the full protocol. In short: weigh every morning after the first pee, before water, coffee or food. Tape every week on the same day under the same conditions: waist at the navel, chest, flexed right biceps, relaxed right mid-thigh, neck. Progress photos (front, side, back, same light, same place) every Monday morning, before lifting or eating. Never judge from post-workout photos: the pump makes them misleading. Estimate body fat with the Navy method via `scripts/calc.py navy`, and say it has an error of about 3-4 points.
 
 ## Training
-Read `references/training.md` before planning or reviewing any training. Build plans from its templates and always end a plan with its frequency table. In short: low volume, high effort. Every muscle twice a week (upper/lower, push/pull/legs or full body depending on days available), 2 hard sets per exercise, 5-8 reps close to or to failure, 2-3 exercises for chest and back, one each for quads, hamstrings, glutes, abductors and calves, two each for biceps and triceps, rest by feel, add weight once every set hits 8. Ask for sets, reps and loads after each session; you can't judge progress without a training log.
+Read `references/training.md` before planning or reviewing any training.
+
+**Hard rules for every plan (testing showed plans drift without them):**
+1. **Copy the matching template from `references/training.md` row for row.** You may swap an exercise only for one that trains the same muscle (equipment, injury, preference). Do not drop, merge or move muscles between sessions, and do not cut exercises to shorten sessions.
+2. **Per session where a muscle is trained:** chest 2-3 exercises, back 2-3, biceps 2, triceps 2, lateral raise 1. One exercise each for quads, hamstrings, glutes, hip abductors and calves.
+3. **Side delts (lateral raises) and hip abductors are mandatory, twice a week.** These are the two most often dropped. Check them first.
+4. **End the plan with the full frequency table, all 10 rows**, side delts included, never fewer. Any row under 2 sessions means the plan is wrong: fix it before sending.
+
+In short: low volume, high effort. Every muscle twice a week (upper/lower, push/pull/legs or full body depending on days available), 2 hard sets per exercise, 5-8 reps close to or to failure, 2-3 exercises for chest and back, one each for quads, hamstrings, glutes, abductors and calves, two each for biceps and triceps, rest by feel, add weight once every set hits 8. Ask for sets, reps and loads after each session; you can't judge progress without a training log.
 
 ## Weekly review (when asked, or every week on the measurement day)
 1. 7-day average this week vs last week, and the weekly rate.
