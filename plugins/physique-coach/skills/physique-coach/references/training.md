@@ -9,6 +9,8 @@ Every muscle group gets trained at least twice a week.
 - **2-3 days: Full body**, at least twice a week.
 Days can move around work. Put a rest day between hard sessions when possible.
 
+**Check before sending any plan:** list every muscle group in the table below and count how many sessions it appears in. Every one, side delts included, must appear at least twice a week. Fix the plan if one doesn't.
+
 ## Exercises per session
 Every exercise is 2 hard sets.
 | Muscle group | Exercises | Sets |
