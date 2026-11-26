@@ -44,3 +44,6 @@ plugins/unbrokenliftr-coach/skills/unbrokenliftr-coach/
 
 ## Disclaimer
 This is coaching guidance, not medical advice. If you have a medical condition, are recovering from surgery, are pregnant, or are under 18, see a doctor before changing your diet or training.
+
+## Rights
+© UnbrokenLiftr. All rights reserved. You're welcome to install and use this skill for your own coaching. Copying, redistributing, repackaging or selling it, or the method in it, is not permitted without written permission.
